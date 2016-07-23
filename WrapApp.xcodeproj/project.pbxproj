@@ -1,0 +1,1347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1F68F619F0B4AF00C191A4 /* title_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1F68F519F0B4AF00C191A4 /* title_back.png */; };
+		3F1F68F819F10D7500C191A4 /* gallery_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1F68F719F10D7500C191A4 /* gallery_back.png */; };
+		3F1F68FA19F140D500C191A4 /* buttons_appl.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1F68F919F140D500C191A4 /* buttons_appl.png */; };
+		3F1F68FE19F14DD900C191A4 /* gra_back_buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1F68FD19F14DD900C191A4 /* gra_back_buttons.png */; };
+		3F1F690019F154E800C191A4 /* huesat.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1F68FF19F154E800C191A4 /* huesat.png */; };
+		3FB6369219F40B76008E41EB /* newscreentutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6369019F40B76008E41EB /* newscreentutorial.png */; };
+		3FB6369319F40B76008E41EB /* exitbutton_for_tut.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB6369119F40B76008E41EB /* exitbutton_for_tut.png */; };
+		3FD489C719E04BEA000EBDD1 /* delete_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD489C419E04BEA000EBDD1 /* delete_btn.png */; };
+		3FD489C819E04BEA000EBDD1 /* redo_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD489C519E04BEA000EBDD1 /* redo_btn.png */; };
+		3FD489C919E04BEA000EBDD1 /* undo_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD489C619E04BEA000EBDD1 /* undo_btn.png */; };
+		3FD489CB19E05843000EBDD1 /* color_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD489CA19E05843000EBDD1 /* color_back.png */; };
+		3FD489D819E05F71000EBDD1 /* dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD489CD19E05F71000EBDD1 /* dropdown.png */; };
+		3FD489D919E05F71000EBDD1 /* dropup.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FD489CE19E05F71000EBDD1 /* dropup.png */; };
+		3FD489DA19E05F71000EBDD1 /* SelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD489D019E05F71000EBDD1 /* SelectionCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FD489DB19E05F71000EBDD1 /* SelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD489D119E05F71000EBDD1 /* SelectionCell.xib */; };
+		3FD489DC19E05F71000EBDD1 /* TableViewWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD489D319E05F71000EBDD1 /* TableViewWithBlock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FD489DD19E05F71000EBDD1 /* UITableView+DataSourceBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD489D519E05F71000EBDD1 /* UITableView+DataSourceBlocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FD489DE19E05F71000EBDD1 /* UITableView+DelegateBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD489D719E05F71000EBDD1 /* UITableView+DelegateBlocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FDD118E19F59C62001E1CCD /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDD118A19F59C61001E1CCD /* icon_120.png */; };
+		3FDD118F19F59C62001E1CCD /* icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDD118B19F59C62001E1CCD /* icon_180.png */; };
+		3FDD119019F59C62001E1CCD /* icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDD118C19F59C62001E1CCD /* icon_80.png */; };
+		3FDD119119F59C62001E1CCD /* icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDD118D19F59C62001E1CCD /* icon_58.png */; };
+		679E42FF19E71519009FA2B4 /* arrowdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E42FE19E71519009FA2B4 /* arrowdown.png */; };
+		679E430A19E71529009FA2B4 /* btn_changcolour.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430019E71529009FA2B4 /* btn_changcolour.png */; };
+		679E430B19E71529009FA2B4 /* btn_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430119E71529009FA2B4 /* btn_clear.png */; };
+		679E430C19E71529009FA2B4 /* btn_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430219E71529009FA2B4 /* btn_delete.png */; };
+		679E430D19E71529009FA2B4 /* btn_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430319E71529009FA2B4 /* btn_menu.png */; };
+		679E430E19E71529009FA2B4 /* btn_redo.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430419E71529009FA2B4 /* btn_redo.png */; };
+		679E430F19E71529009FA2B4 /* btn_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430519E71529009FA2B4 /* btn_save.png */; };
+		679E431019E71529009FA2B4 /* btn_undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430619E71529009FA2B4 /* btn_undo.png */; };
+		679E431119E71529009FA2B4 /* btn_watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430719E71529009FA2B4 /* btn_watch.png */; };
+		679E431219E71529009FA2B4 /* btn_winafree.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430819E71529009FA2B4 /* btn_winafree.png */; };
+		679E431319E71529009FA2B4 /* select_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 679E430919E71529009FA2B4 /* select_back.png */; };
+		67A31B0419ED86C1002FD621 /* pick_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A31B0219ED86C1002FD621 /* pick_btn.png */; };
+		67A31B0519ED86C1002FD621 /* warpp_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A31B0319ED86C1002FD621 /* warpp_btn.png */; };
+		67A591F519E59AB900D53FA0 /* exit_btn_grar.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A591F319E59AB900D53FA0 /* exit_btn_grar.png */; };
+		67A73D8519ED64740080DAC0 /* DrawViewControllerPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A73D8419ED64740080DAC0 /* DrawViewControllerPhoto.m */; };
+		67ACEFC119E27AE80056B950 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67ACEFC019E27AE80056B950 /* GalleryViewController.m */; };
+		67ACEFC619E27FAD0056B950 /* next_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 67ACEFC219E27FAD0056B950 /* next_btn.png */; };
+		67ACEFC719E27FAD0056B950 /* logo_gal.png in Resources */ = {isa = PBXBuildFile; fileRef = 67ACEFC319E27FAD0056B950 /* logo_gal.png */; };
+		67ACEFC819E27FAD0056B950 /* back_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 67ACEFC419E27FAD0056B950 /* back_btn.png */; };
+		67ACEFC919E27FAD0056B950 /* gallery_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 67ACEFC519E27FAD0056B950 /* gallery_title.png */; };
+		67B1F58A19DDAFC100266872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1F58919DDAFC100266872 /* Foundation.framework */; };
+		67B1F58C19DDAFC100266872 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1F58B19DDAFC100266872 /* CoreGraphics.framework */; };
+		67B1F58E19DDAFC100266872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1F58D19DDAFC100266872 /* UIKit.framework */; };
+		67B1F59419DDAFC100266872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F59219DDAFC100266872 /* InfoPlist.strings */; };
+		67B1F59619DDAFC100266872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F59519DDAFC100266872 /* main.m */; };
+		67B1F59A19DDAFC100266872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F59919DDAFC100266872 /* AppDelegate.m */; };
+		67B1F59D19DDAFC100266872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F59B19DDAFC100266872 /* Main.storyboard */; };
+		67B1F5A019DDAFC100266872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F59F19DDAFC100266872 /* ViewController.m */; };
+		67B1F5A219DDAFC100266872 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F5A119DDAFC100266872 /* Images.xcassets */; };
+		67B1F5A919DDAFC100266872 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1F5A819DDAFC100266872 /* XCTest.framework */; };
+		67B1F5AA19DDAFC100266872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1F58919DDAFC100266872 /* Foundation.framework */; };
+		67B1F5AB19DDAFC100266872 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1F58D19DDAFC100266872 /* UIKit.framework */; };
+		67B1F5B319DDAFC100266872 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F5B119DDAFC100266872 /* InfoPlist.strings */; };
+		67B1F5B519DDAFC100266872 /* HeartCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5B419DDAFC100266872 /* HeartCMSTests.m */; };
+		67B1F5C319DDAFEA00266872 /* MKStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5C019DDAFEA00266872 /* MKStoreManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		67B1F5C419DDAFEA00266872 /* MKStoreObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5C219DDAFEA00266872 /* MKStoreObserver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		67B1F5EF19DDAFF000266872 /* colorPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F5C719DDAFF000266872 /* colorPicker.bundle */; };
+		67B1F5F019DDAFF000266872 /* NEOColorPickerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5C919DDAFF000266872 /* NEOColorPickerBaseViewController.m */; };
+		67B1F5F119DDAFF000266872 /* NEOColorPickerFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5CB19DDAFF000266872 /* NEOColorPickerFavoritesViewController.m */; };
+		67B1F5F219DDAFF000266872 /* NEOColorPickerFavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F5CC19DDAFF000266872 /* NEOColorPickerFavoritesViewController.xib */; };
+		67B1F5F319DDAFF000266872 /* NEOColorPickerGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5CE19DDAFF000266872 /* NEOColorPickerGradientView.m */; };
+		67B1F5F419DDAFF000266872 /* NEOColorPickerHSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5D019DDAFF000266872 /* NEOColorPickerHSLViewController.m */; };
+		67B1F5F519DDAFF000266872 /* NEOColorPickerHSLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F5D119DDAFF000266872 /* NEOColorPickerHSLViewController.xib */; };
+		67B1F5F619DDAFF000266872 /* NEOColorPickerHueGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5D319DDAFF000266872 /* NEOColorPickerHueGridViewController.m */; };
+		67B1F5F719DDAFF000266872 /* NEOColorPickerHueGridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F5D419DDAFF000266872 /* NEOColorPickerHueGridViewController.xib */; };
+		67B1F5F819DDAFF000266872 /* NEOColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5D619DDAFF000266872 /* NEOColorPickerViewController.m */; };
+		67B1F5F919DDAFF000266872 /* NEOColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F5D719DDAFF000266872 /* NEOColorPickerViewController.xib */; };
+		67B1F5FA19DDAFF000266872 /* UIColor+NEOColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5D919DDAFF000266872 /* UIColor+NEOColor.m */; };
+		67B1F5FB19DDAFF000266872 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5DC19DDAFF000266872 /* iCarousel.m */; };
+		67B1F5FC19DDAFF000266872 /* CoreGraphicsAdditions.c in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5DF19DDAFF000266872 /* CoreGraphicsAdditions.c */; };
+		67B1F5FD19DDAFF000266872 /* UIImage+ImageBlending.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5E219DDAFF000266872 /* UIImage+ImageBlending.m */; };
+		67B1F5FE19DDAFF000266872 /* UIImage+ImageColoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5E419DDAFF000266872 /* UIImage+ImageColoring.m */; };
+		67B1F5FF19DDAFF000266872 /* UIImage+ImageResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5E619DDAFF000266872 /* UIImage+ImageResizing.m */; };
+		67B1F60019DDAFF000266872 /* UIImage+ImageRounding.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5E819DDAFF000266872 /* UIImage+ImageRounding.m */; };
+		67B1F60119DDAFF000266872 /* UIImage+ImageTrimming.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5EA19DDAFF000266872 /* UIImage+ImageTrimming.m */; };
+		67B1F60219DDAFF000266872 /* UIKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5EC19DDAFF000266872 /* UIKitAdditions.m */; };
+		67B1F60319DDAFF000266872 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F5EE19DDAFF000266872 /* UIColor+Util.m */; };
+		67B1F60619DDAFFA00266872 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F60519DDAFFA00266872 /* MainViewController.m */; };
+		67B1F60919DDB03900266872 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F60819DDB03900266872 /* BaseViewController.m */; };
+		67B1F60C19DDB04000266872 /* ButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F60B19DDB04000266872 /* ButtonTableViewCell.m */; };
+		67B1F61119DDB04600266872 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F60E19DDB04600266872 /* DrawViewController.m */; };
+		67B1F61219DDB04600266872 /* EmailFormControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F61019DDB04600266872 /* EmailFormControllerViewController.m */; };
+		67B1F61519DDB04C00266872 /* GarageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F61419DDB04C00266872 /* GarageViewController.m */; };
+		67B1F62219DDB0A600266872 /* PictureEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F61A19DDB0A600266872 /* PictureEditViewController.m */; };
+		67B1F62319DDB0A600266872 /* TextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F61C19DDB0A600266872 /* TextFieldTableViewCell.m */; };
+		67B1F62419DDB0A600266872 /* TextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F61E19DDB0A600266872 /* TextViewTableViewCell.m */; };
+		67B1F62519DDB0A600266872 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F62019DDB0A600266872 /* UIImage+fixOrientation.m */; };
+		67B1F62819DDB13700266872 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B1F62719DDB13700266872 /* AssetsLibrary.framework */; };
+		67B1F62B19DDB16D00266872 /* ImageViewWithDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F62A19DDB16D00266872 /* ImageViewWithDraw.m */; };
+		67B1F62F19DDB25F00266872 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F62C19DDB25F00266872 /* Default-568h@2x.png */; };
+		67B1F63019DDB25F00266872 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F62D19DDB25F00266872 /* Default.png */; };
+		67B1F63119DDB25F00266872 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F62E19DDB25F00266872 /* Default@2x.png */; };
+		67B1F64C19DDB33A00266872 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F63919DDB33A00266872 /* cancel.png */; };
+		67B1F64D19DDB33A00266872 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F63A19DDB33A00266872 /* cancel@2x.png */; };
+		67B1F64E19DDB33A00266872 /* done.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F63B19DDB33A00266872 /* done.png */; };
+		67B1F64F19DDB33A00266872 /* done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F63C19DDB33A00266872 /* done@2x.png */; };
+		67B1F65019DDB33A00266872 /* howtouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F63D19DDB33A00266872 /* howtouse.png */; };
+		67B1F65119DDB33A00266872 /* icon_lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F63E19DDB33A00266872 /* icon_lock.png */; };
+		67B1F65219DDB33A00266872 /* icon_lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F63F19DDB33A00266872 /* icon_lock@2x.png */; };
+		67B1F65319DDB33A00266872 /* iphone5yang.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64019DDB33A00266872 /* iphone5yang.png */; };
+		67B1F65419DDB33A00266872 /* lockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64119DDB33A00266872 /* lockicon.png */; };
+		67B1F65519DDB33A00266872 /* lockicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64219DDB33A00266872 /* lockicon@2x.png */; };
+		67B1F65619DDB33A00266872 /* request.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64319DDB33A00266872 /* request.png */; };
+		67B1F65719DDB33A00266872 /* requestButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64419DDB33A00266872 /* requestButton.png */; };
+		67B1F65819DDB33A00266872 /* requestButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64519DDB33A00266872 /* requestButton@2x.png */; };
+		67B1F65919DDB33A00266872 /* selectCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64619DDB33A00266872 /* selectCar.png */; };
+		67B1F65A19DDB33A00266872 /* selectCar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64719DDB33A00266872 /* selectCar@2x.png */; };
+		67B1F65B19DDB33A00266872 /* selectGallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64819DDB33A00266872 /* selectGallery.png */; };
+		67B1F65C19DDB33A00266872 /* selectGallery@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64919DDB33A00266872 /* selectGallery@2x.png */; };
+		67B1F65D19DDB33A00266872 /* takeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64A19DDB33A00266872 /* takeButton.png */; };
+		67B1F65E19DDB33A00266872 /* takeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F64B19DDB33A00266872 /* takeButton@2x.png */; };
+		67B1F66419DDB42600266872 /* bmw_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F65F19DDB42600266872 /* bmw_1.png */; };
+		67B1F66519DDB42600266872 /* bmw_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F66019DDB42600266872 /* bmw_2.png */; };
+		67B1F66619DDB42600266872 /* bmw_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F66119DDB42600266872 /* bmw_3.png */; };
+		67B1F66719DDB42600266872 /* bmw_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F66219DDB42600266872 /* bmw_4.png */; };
+		67B1F66A19DDB47F00266872 /* mail_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F66919DDB47F00266872 /* mail_bg.png */; };
+		67B2905D19F004D900605F79 /* Aston-Martin-Virage-GlossYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904519F004D900605F79 /* Aston-Martin-Virage-GlossYellow.png */; };
+		67B2905E19F004D900605F79 /* Aston-Martin-Virage-MatteBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904619F004D900605F79 /* Aston-Martin-Virage-MatteBlue.png */; };
+		67B2905F19F004D900605F79 /* Aston-Martin-Virage-MattePink.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904719F004D900605F79 /* Aston-Martin-Virage-MattePink.png */; };
+		67B2906019F004D900605F79 /* Aston-Martin-Virage-MatteRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904819F004D900605F79 /* Aston-Martin-Virage-MatteRed.png */; };
+		67B2906119F004D900605F79 /* Audi-r8-gloss-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904919F004D900605F79 /* Audi-r8-gloss-blue.png */; };
+		67B2906219F004D900605F79 /* Audi-r8-gloss-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904A19F004D900605F79 /* Audi-r8-gloss-orange.png */; };
+		67B2906319F004D900605F79 /* Audi-r8-matte-gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904B19F004D900605F79 /* Audi-r8-matte-gold.png */; };
+		67B2906419F004D900605F79 /* Audi-r8-matte-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904C19F004D900605F79 /* Audi-r8-matte-red.png */; };
+		67B2906519F004D900605F79 /* Bentley-Continental-GT-gloss-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904D19F004D900605F79 /* Bentley-Continental-GT-gloss-orange.png */; };
+		67B2906619F004D900605F79 /* Bentley-Continental-GT-gloss-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904E19F004D900605F79 /* Bentley-Continental-GT-gloss-yellow.png */; };
+		67B2906719F004D900605F79 /* Bentley-Continental-GT-matte-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2904F19F004D900605F79 /* Bentley-Continental-GT-matte-orange.png */; };
+		67B2906819F004D900605F79 /* Bentley-Continental-GT-matte-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905019F004D900605F79 /* Bentley-Continental-GT-matte-red.png */; };
+		67B2906919F004D900605F79 /* Ferrari-458-gloss-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905119F004D900605F79 /* Ferrari-458-gloss-orange.png */; };
+		67B2906A19F004D900605F79 /* Ferrari-458-gloss-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905219F004D900605F79 /* Ferrari-458-gloss-yellow.png */; };
+		67B2906B19F004D900605F79 /* Ferrari-458-matte-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905319F004D900605F79 /* Ferrari-458-matte-blue.png */; };
+		67B2906C19F004D900605F79 /* Ferrari-458-matte-purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905419F004D900605F79 /* Ferrari-458-matte-purple.png */; };
+		67B2906D19F004D900605F79 /* LaFerrari-gloss-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905519F004D900605F79 /* LaFerrari-gloss-blue.png */; };
+		67B2906E19F004D900605F79 /* LaFerrari-gloss-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905619F004D900605F79 /* LaFerrari-gloss-green.png */; };
+		67B2906F19F004D900605F79 /* LaFerrari-matte-brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905719F004D900605F79 /* LaFerrari-matte-brown.png */; };
+		67B2907019F004D900605F79 /* LaFerrari-matte-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905819F004D900605F79 /* LaFerrari-matte-pink.png */; };
+		67B2907119F004D900605F79 /* LamborghiniAventador-gloss-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905919F004D900605F79 /* LamborghiniAventador-gloss-orange.png */; };
+		67B2907219F004D900605F79 /* LamborghiniAventador-gloss-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905A19F004D900605F79 /* LamborghiniAventador-gloss-yellow.png */; };
+		67B2907319F004D900605F79 /* LamborghiniAventador-matte-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905B19F004D900605F79 /* LamborghiniAventador-matte-green.png */; };
+		67B2907419F004D900605F79 /* LamborghiniAventador-matte-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 67B2905C19F004D900605F79 /* LamborghiniAventador-matte-red.png */; };
+		67B2907819F0292B00605F79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2907719F0292B00605F79 /* AudioToolbox.framework */; };
+		67B2907A19F0293400605F79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2907919F0293400605F79 /* CFNetwork.framework */; };
+		67B2907C19F029DB00605F79 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2907B19F029DB00605F79 /* CoreLocation.framework */; };
+		67B2907E19F029E500605F79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2907D19F029E500605F79 /* libz.dylib */; };
+		67B2908019F029ED00605F79 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2907F19F029ED00605F79 /* MobileCoreServices.framework */; };
+		67B2908219F029F400605F79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2908119F029F400605F79 /* QuartzCore.framework */; };
+		67B2908419F029FD00605F79 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2908319F029FD00605F79 /* Security.framework */; };
+		67B2908619F02A0600605F79 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2908519F02A0600605F79 /* StoreKit.framework */; };
+		67B2908819F02A1000605F79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2908719F02A1000605F79 /* SystemConfiguration.framework */; };
+		67B2908D19F0451D00605F79 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2908B19F0451D00605F79 /* Bolts.framework */; };
+		67B2908E19F0451D00605F79 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2908C19F0451D00605F79 /* Parse.framework */; };
+		67B2909019F0456600605F79 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B2908F19F0456600605F79 /* ParseFacebookUtils.framework */; };
+		67BAA11119E70B5800723D51 /* DrawViewControllerGarage.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BAA11019E70B5800723D51 /* DrawViewControllerGarage.m */; };
+		67BAA11319E7111100723D51 /* title_logo_gr.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BAA11219E7111100723D51 /* title_logo_gr.png */; };
+		67BBD3FF19E312AA002EFC81 /* TektonPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67BBD3FE19E312AA002EFC81 /* TektonPro-Bold.otf */; };
+		67BBD40219E3B245002EFC81 /* GarageTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBD40119E3B245002EFC81 /* GarageTutorialViewController.m */; };
+		67BBD40419E3BB60002EFC81 /* select_car_from_garage.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBD40319E3BB60002EFC81 /* select_car_from_garage.png */; };
+		67BBD40719E3BECF002EFC81 /* youtub_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBD40519E3BECF002EFC81 /* youtub_video.png */; };
+		67BBD40819E3BECF002EFC81 /* exit_tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBD40619E3BECF002EFC81 /* exit_tutorial.png */; };
+		67BBD40A19E40496002EFC81 /* take_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBD40919E40496002EFC81 /* take_picture.png */; };
+		67BC1FE319ED6FB900C638AC /* apply_colo.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BC1FE219ED6FB900C638AC /* apply_colo.png */; };
+		67BCFD6019EC99600026D6E0 /* BMW-M4-matteGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCFD5919EC99600026D6E0 /* BMW-M4-matteGreen.png */; };
+		67BCFD6119EC99600026D6E0 /* gtr-mattegreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCFD5A19EC99600026D6E0 /* gtr-mattegreen.png */; };
+		67BCFD6219EC99600026D6E0 /* rangeroversport-matt.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCFD5B19EC99600026D6E0 /* rangeroversport-matt.png */; };
+		67BCFD6319EC99600026D6E0 /* rangeroversport-mattblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCFD5C19EC99600026D6E0 /* rangeroversport-mattblue.png */; };
+		67BCFD6419EC99600026D6E0 /* VWGlofGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCFD5D19EC99600026D6E0 /* VWGlofGreen.png */; };
+		67BCFD6519EC99600026D6E0 /* VWGlofmatteorange.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCFD5E19EC99600026D6E0 /* VWGlofmatteorange.png */; };
+		67BCFD6619EC99600026D6E0 /* VWGlofmattepurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCFD5F19EC99600026D6E0 /* VWGlofmattepurple.png */; };
+		67BCFD6919EC9D620026D6E0 /* rangeroversport-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCFD6719EC9D620026D6E0 /* rangeroversport-pink.png */; };
+		67BCFD6A19EC9D620026D6E0 /* rangeroversport-purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BCFD6819EC9D620026D6E0 /* rangeroversport-purple.png */; };
+		67E3E07D19E9734B00CC1B95 /* ka_matte_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 67E3E07C19E9734B00CC1B95 /* ka_matte_green.png */; };
+		67EC18EB19E4D16F005E27B1 /* gtr-limegreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18E819E4D16F005E27B1 /* gtr-limegreen.png */; };
+		67EC18EC19E4D16F005E27B1 /* gtr-matteblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18E919E4D16F005E27B1 /* gtr-matteblue.png */; };
+		67EC18ED19E4D16F005E27B1 /* gtr-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18EA19E4D16F005E27B1 /* gtr-orange.png */; };
+		67EC18F219E4D175005E27B1 /* ka-lightblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18EE19E4D175005E27B1 /* ka-lightblue.png */; };
+		67EC18F319E4D175005E27B1 /* ka-matte-brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18EF19E4D175005E27B1 /* ka-matte-brown.png */; };
+		67EC18F419E4D175005E27B1 /* ka-metallic-purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18F019E4D175005E27B1 /* ka-metallic-purple.png */; };
+		67EC18F519E4D175005E27B1 /* kablack.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18F119E4D175005E27B1 /* kablack.png */; };
+		67EC18FB19E4D17E005E27B1 /* BMW-M4-matteBrown.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18F719E4D17E005E27B1 /* BMW-M4-matteBrown.png */; };
+		67EC18FC19E4D17E005E27B1 /* BMW-M4-Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18F819E4D17E005E27B1 /* BMW-M4-Orange.png */; };
+		67EC18FD19E4D17E005E27B1 /* BMW-M4-Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18F919E4D17E005E27B1 /* BMW-M4-Yellow.png */; };
+		67EC190219E4D185005E27B1 /* mini-cooper-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18FE19E4D185005E27B1 /* mini-cooper-blue.png */; };
+		67EC190319E4D185005E27B1 /* mini-cooper-matte-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC18FF19E4D185005E27B1 /* mini-cooper-matte-blue.png */; };
+		67EC190419E4D185005E27B1 /* mini-cooper-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC190019E4D185005E27B1 /* mini-cooper-orange.png */; };
+		67EC190519E4D185005E27B1 /* mini-cooper-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC190119E4D185005E27B1 /* mini-cooper-yellow.png */; };
+		67EC190A19E4D18E005E27B1 /* VWGolf.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC190619E4D18E005E27B1 /* VWGolf.png */; };
+		67EC190B19E4D18E005E27B1 /* VWGolfMatteGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC190719E4D18E005E27B1 /* VWGolfMatteGrey.png */; };
+		67EC190C19E4D18E005E27B1 /* VWGolfRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC190819E4D18E005E27B1 /* VWGolfRed.png */; };
+		67EC190D19E4D18E005E27B1 /* VWGolfwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 67EC190919E4D18E005E27B1 /* VWGolfwhite.png */; };
+		67F7E74F19E2961B00FB3854 /* bmw_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F7E74D19E2961B00FB3854 /* bmw_5.png */; };
+		67F7E75019E2961B00FB3854 /* bmw_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 67F7E74E19E2961B00FB3854 /* bmw_6.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67B1F5AC19DDAFC100266872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B1F57E19DDAFC100266872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B1F58519DDAFC100266872;
+			remoteInfo = HeartCMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1F68F519F0B4AF00C191A4 /* title_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_back.png; sourceTree = "<group>"; };
+		3F1F68F719F10D7500C191A4 /* gallery_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gallery_back.png; path = heartcms/images/gallery_back.png; sourceTree = SOURCE_ROOT; };
+		3F1F68F919F140D500C191A4 /* buttons_appl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons_appl.png; sourceTree = "<group>"; };
+		3F1F68FD19F14DD900C191A4 /* gra_back_buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gra_back_buttons.png; path = heartcms/images/gra_back_buttons.png; sourceTree = SOURCE_ROOT; };
+		3F1F68FF19F154E800C191A4 /* huesat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huesat.png; sourceTree = "<group>"; };
+		3FB6369019F40B76008E41EB /* newscreentutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newscreentutorial.png; sourceTree = "<group>"; };
+		3FB6369119F40B76008E41EB /* exitbutton_for_tut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exitbutton_for_tut.png; sourceTree = "<group>"; };
+		3FD489C419E04BEA000EBDD1 /* delete_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete_btn.png; path = heartcms/images/delete_btn.png; sourceTree = SOURCE_ROOT; };
+		3FD489C519E04BEA000EBDD1 /* redo_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redo_btn.png; path = heartcms/images/redo_btn.png; sourceTree = SOURCE_ROOT; };
+		3FD489C619E04BEA000EBDD1 /* undo_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = undo_btn.png; path = heartcms/images/undo_btn.png; sourceTree = SOURCE_ROOT; };
+		3FD489CA19E05843000EBDD1 /* color_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_back.png; sourceTree = "<group>"; };
+		3FD489CD19E05F71000EBDD1 /* dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown.png; sourceTree = "<group>"; };
+		3FD489CE19E05F71000EBDD1 /* dropup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropup.png; sourceTree = "<group>"; };
+		3FD489CF19E05F71000EBDD1 /* SelectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionCell.h; sourceTree = "<group>"; };
+		3FD489D019E05F71000EBDD1 /* SelectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionCell.m; sourceTree = "<group>"; };
+		3FD489D119E05F71000EBDD1 /* SelectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionCell.xib; sourceTree = "<group>"; };
+		3FD489D219E05F71000EBDD1 /* TableViewWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewWithBlock.h; sourceTree = "<group>"; };
+		3FD489D319E05F71000EBDD1 /* TableViewWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewWithBlock.m; sourceTree = "<group>"; };
+		3FD489D419E05F71000EBDD1 /* UITableView+DataSourceBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DataSourceBlocks.h"; sourceTree = "<group>"; };
+		3FD489D519E05F71000EBDD1 /* UITableView+DataSourceBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DataSourceBlocks.m"; sourceTree = "<group>"; };
+		3FD489D619E05F71000EBDD1 /* UITableView+DelegateBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DelegateBlocks.h"; sourceTree = "<group>"; };
+		3FD489D719E05F71000EBDD1 /* UITableView+DelegateBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DelegateBlocks.m"; sourceTree = "<group>"; };
+		3FDD118A19F59C61001E1CCD /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
+		3FDD118B19F59C62001E1CCD /* icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_180.png; sourceTree = "<group>"; };
+		3FDD118C19F59C62001E1CCD /* icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_80.png; sourceTree = "<group>"; };
+		3FDD118D19F59C62001E1CCD /* icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_58.png; sourceTree = "<group>"; };
+		679E42FE19E71519009FA2B4 /* arrowdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrowdown.png; path = heartcms/images/arrowdown.png; sourceTree = SOURCE_ROOT; };
+		679E430019E71529009FA2B4 /* btn_changcolour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_changcolour.png; path = heartcms/images/btn_changcolour.png; sourceTree = SOURCE_ROOT; };
+		679E430119E71529009FA2B4 /* btn_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_clear.png; path = heartcms/images/btn_clear.png; sourceTree = SOURCE_ROOT; };
+		679E430219E71529009FA2B4 /* btn_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_delete.png; path = heartcms/images/btn_delete.png; sourceTree = SOURCE_ROOT; };
+		679E430319E71529009FA2B4 /* btn_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_menu.png; path = heartcms/images/btn_menu.png; sourceTree = SOURCE_ROOT; };
+		679E430419E71529009FA2B4 /* btn_redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_redo.png; path = heartcms/images/btn_redo.png; sourceTree = SOURCE_ROOT; };
+		679E430519E71529009FA2B4 /* btn_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_save.png; path = heartcms/images/btn_save.png; sourceTree = SOURCE_ROOT; };
+		679E430619E71529009FA2B4 /* btn_undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_undo.png; path = heartcms/images/btn_undo.png; sourceTree = SOURCE_ROOT; };
+		679E430719E71529009FA2B4 /* btn_watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_watch.png; path = heartcms/images/btn_watch.png; sourceTree = SOURCE_ROOT; };
+		679E430819E71529009FA2B4 /* btn_winafree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_winafree.png; path = heartcms/images/btn_winafree.png; sourceTree = SOURCE_ROOT; };
+		679E430919E71529009FA2B4 /* select_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = select_back.png; path = heartcms/images/select_back.png; sourceTree = SOURCE_ROOT; };
+		67A31B0219ED86C1002FD621 /* pick_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick_btn.png; sourceTree = "<group>"; };
+		67A31B0319ED86C1002FD621 /* warpp_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warpp_btn.png; sourceTree = "<group>"; };
+		67A591F319E59AB900D53FA0 /* exit_btn_grar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_btn_grar.png; sourceTree = "<group>"; };
+		67A73D8319ED64740080DAC0 /* DrawViewControllerPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawViewControllerPhoto.h; path = heartcms/images/DrawViewControllerPhoto.h; sourceTree = SOURCE_ROOT; };
+		67A73D8419ED64740080DAC0 /* DrawViewControllerPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawViewControllerPhoto.m; path = heartcms/images/DrawViewControllerPhoto.m; sourceTree = SOURCE_ROOT; };
+		67ACEFBF19E27AE80056B950 /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GalleryViewController.h; path = heartcms/GalleryViewController.h; sourceTree = SOURCE_ROOT; };
+		67ACEFC019E27AE80056B950 /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GalleryViewController.m; path = heartcms/GalleryViewController.m; sourceTree = SOURCE_ROOT; };
+		67ACEFC219E27FAD0056B950 /* next_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_btn.png; sourceTree = "<group>"; };
+		67ACEFC319E27FAD0056B950 /* logo_gal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_gal.png; sourceTree = "<group>"; };
+		67ACEFC419E27FAD0056B950 /* back_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_btn.png; sourceTree = "<group>"; };
+		67ACEFC519E27FAD0056B950 /* gallery_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery_title.png; sourceTree = "<group>"; };
+		67B1F58619DDAFC100266872 /* WrapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WrapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B1F58919DDAFC100266872 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67B1F58B19DDAFC100266872 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67B1F58D19DDAFC100266872 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67B1F59119DDAFC100266872 /* HeartCMS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartCMS-Info.plist"; sourceTree = "<group>"; };
+		67B1F59319DDAFC100266872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67B1F59519DDAFC100266872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67B1F59719DDAFC100266872 /* HeartCMS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeartCMS-Prefix.pch"; sourceTree = "<group>"; };
+		67B1F59819DDAFC100266872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67B1F59919DDAFC100266872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67B1F59C19DDAFC100266872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67B1F59E19DDAFC100266872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67B1F59F19DDAFC100266872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67B1F5A119DDAFC100266872 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67B1F5A719DDAFC100266872 /* HeartCMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartCMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B1F5A819DDAFC100266872 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		67B1F5B019DDAFC100266872 /* HeartCMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartCMSTests-Info.plist"; sourceTree = "<group>"; };
+		67B1F5B219DDAFC100266872 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67B1F5B419DDAFC100266872 /* HeartCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartCMSTests.m; sourceTree = "<group>"; };
+		67B1F5BF19DDAFEA00266872 /* MKStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreManager.h; sourceTree = "<group>"; };
+		67B1F5C019DDAFEA00266872 /* MKStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreManager.m; sourceTree = "<group>"; };
+		67B1F5C119DDAFEA00266872 /* MKStoreObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKStoreObserver.h; sourceTree = "<group>"; };
+		67B1F5C219DDAFEA00266872 /* MKStoreObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKStoreObserver.m; sourceTree = "<group>"; };
+		67B1F5C719DDAFF000266872 /* colorPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = colorPicker.bundle; sourceTree = "<group>"; };
+		67B1F5C819DDAFF000266872 /* NEOColorPickerBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerBaseViewController.h; sourceTree = "<group>"; };
+		67B1F5C919DDAFF000266872 /* NEOColorPickerBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerBaseViewController.m; sourceTree = "<group>"; };
+		67B1F5CA19DDAFF000266872 /* NEOColorPickerFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerFavoritesViewController.h; sourceTree = "<group>"; };
+		67B1F5CB19DDAFF000266872 /* NEOColorPickerFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerFavoritesViewController.m; sourceTree = "<group>"; };
+		67B1F5CC19DDAFF000266872 /* NEOColorPickerFavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerFavoritesViewController.xib; sourceTree = "<group>"; };
+		67B1F5CD19DDAFF000266872 /* NEOColorPickerGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerGradientView.h; sourceTree = "<group>"; };
+		67B1F5CE19DDAFF000266872 /* NEOColorPickerGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerGradientView.m; sourceTree = "<group>"; };
+		67B1F5CF19DDAFF000266872 /* NEOColorPickerHSLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerHSLViewController.h; sourceTree = "<group>"; };
+		67B1F5D019DDAFF000266872 /* NEOColorPickerHSLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerHSLViewController.m; sourceTree = "<group>"; };
+		67B1F5D119DDAFF000266872 /* NEOColorPickerHSLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerHSLViewController.xib; sourceTree = "<group>"; };
+		67B1F5D219DDAFF000266872 /* NEOColorPickerHueGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerHueGridViewController.h; sourceTree = "<group>"; };
+		67B1F5D319DDAFF000266872 /* NEOColorPickerHueGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerHueGridViewController.m; sourceTree = "<group>"; };
+		67B1F5D419DDAFF000266872 /* NEOColorPickerHueGridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerHueGridViewController.xib; sourceTree = "<group>"; };
+		67B1F5D519DDAFF000266872 /* NEOColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEOColorPickerViewController.h; sourceTree = "<group>"; };
+		67B1F5D619DDAFF000266872 /* NEOColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEOColorPickerViewController.m; sourceTree = "<group>"; };
+		67B1F5D719DDAFF000266872 /* NEOColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NEOColorPickerViewController.xib; sourceTree = "<group>"; };
+		67B1F5D819DDAFF000266872 /* UIColor+NEOColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NEOColor.h"; sourceTree = "<group>"; };
+		67B1F5D919DDAFF000266872 /* UIColor+NEOColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NEOColor.m"; sourceTree = "<group>"; };
+		67B1F5DB19DDAFF000266872 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		67B1F5DC19DDAFF000266872 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		67B1F5DE19DDAFF000266872 /* CKImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKImageAdditions.h; sourceTree = "<group>"; };
+		67B1F5DF19DDAFF000266872 /* CoreGraphicsAdditions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CoreGraphicsAdditions.c; sourceTree = "<group>"; };
+		67B1F5E019DDAFF000266872 /* CoreGraphicsAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreGraphicsAdditions.h; sourceTree = "<group>"; };
+		67B1F5E119DDAFF000266872 /* UIImage+ImageBlending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageBlending.h"; sourceTree = "<group>"; };
+		67B1F5E219DDAFF000266872 /* UIImage+ImageBlending.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageBlending.m"; sourceTree = "<group>"; };
+		67B1F5E319DDAFF000266872 /* UIImage+ImageColoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageColoring.h"; sourceTree = "<group>"; };
+		67B1F5E419DDAFF000266872 /* UIImage+ImageColoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageColoring.m"; sourceTree = "<group>"; };
+		67B1F5E519DDAFF000266872 /* UIImage+ImageResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageResizing.h"; sourceTree = "<group>"; };
+		67B1F5E619DDAFF000266872 /* UIImage+ImageResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageResizing.m"; sourceTree = "<group>"; };
+		67B1F5E719DDAFF000266872 /* UIImage+ImageRounding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageRounding.h"; sourceTree = "<group>"; };
+		67B1F5E819DDAFF000266872 /* UIImage+ImageRounding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageRounding.m"; sourceTree = "<group>"; };
+		67B1F5E919DDAFF000266872 /* UIImage+ImageTrimming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageTrimming.h"; sourceTree = "<group>"; };
+		67B1F5EA19DDAFF000266872 /* UIImage+ImageTrimming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageTrimming.m"; sourceTree = "<group>"; };
+		67B1F5EB19DDAFF000266872 /* UIKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitAdditions.h; sourceTree = "<group>"; };
+		67B1F5EC19DDAFF000266872 /* UIKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitAdditions.m; sourceTree = "<group>"; };
+		67B1F5ED19DDAFF000266872 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		67B1F5EE19DDAFF000266872 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
+		67B1F60419DDAFFA00266872 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		67B1F60519DDAFFA00266872 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		67B1F60719DDB03900266872 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		67B1F60819DDB03900266872 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		67B1F60A19DDB04000266872 /* ButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTableViewCell.h; sourceTree = "<group>"; };
+		67B1F60B19DDB04000266872 /* ButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTableViewCell.m; sourceTree = "<group>"; };
+		67B1F60D19DDB04600266872 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		67B1F60E19DDB04600266872 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		67B1F60F19DDB04600266872 /* EmailFormControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailFormControllerViewController.h; sourceTree = "<group>"; };
+		67B1F61019DDB04600266872 /* EmailFormControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailFormControllerViewController.m; sourceTree = "<group>"; };
+		67B1F61319DDB04C00266872 /* GarageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageViewController.h; sourceTree = "<group>"; };
+		67B1F61419DDB04C00266872 /* GarageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageViewController.m; sourceTree = "<group>"; };
+		67B1F61919DDB0A600266872 /* PictureEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureEditViewController.h; sourceTree = "<group>"; };
+		67B1F61A19DDB0A600266872 /* PictureEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureEditViewController.m; sourceTree = "<group>"; };
+		67B1F61B19DDB0A600266872 /* TextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldTableViewCell.h; sourceTree = "<group>"; };
+		67B1F61C19DDB0A600266872 /* TextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldTableViewCell.m; sourceTree = "<group>"; };
+		67B1F61D19DDB0A600266872 /* TextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewTableViewCell.h; sourceTree = "<group>"; };
+		67B1F61E19DDB0A600266872 /* TextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewTableViewCell.m; sourceTree = "<group>"; };
+		67B1F61F19DDB0A600266872 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		67B1F62019DDB0A600266872 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		67B1F62719DDB13700266872 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		67B1F62919DDB16D00266872 /* ImageViewWithDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewWithDraw.h; sourceTree = "<group>"; };
+		67B1F62A19DDB16D00266872 /* ImageViewWithDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewWithDraw.m; sourceTree = "<group>"; };
+		67B1F62C19DDB25F00266872 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		67B1F62D19DDB25F00266872 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		67B1F62E19DDB25F00266872 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		67B1F63919DDB33A00266872 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		67B1F63A19DDB33A00266872 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		67B1F63B19DDB33A00266872 /* done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = done.png; sourceTree = "<group>"; };
+		67B1F63C19DDB33A00266872 /* done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "done@2x.png"; sourceTree = "<group>"; };
+		67B1F63D19DDB33A00266872 /* howtouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = howtouse.png; sourceTree = "<group>"; };
+		67B1F63E19DDB33A00266872 /* icon_lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_lock.png; sourceTree = "<group>"; };
+		67B1F63F19DDB33A00266872 /* icon_lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_lock@2x.png"; sourceTree = "<group>"; };
+		67B1F64019DDB33A00266872 /* iphone5yang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone5yang.png; sourceTree = "<group>"; };
+		67B1F64119DDB33A00266872 /* lockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lockicon.png; sourceTree = "<group>"; };
+		67B1F64219DDB33A00266872 /* lockicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lockicon@2x.png"; sourceTree = "<group>"; };
+		67B1F64319DDB33A00266872 /* request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = request.png; sourceTree = "<group>"; };
+		67B1F64419DDB33A00266872 /* requestButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = requestButton.png; sourceTree = "<group>"; };
+		67B1F64519DDB33A00266872 /* requestButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "requestButton@2x.png"; sourceTree = "<group>"; };
+		67B1F64619DDB33A00266872 /* selectCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectCar.png; sourceTree = "<group>"; };
+		67B1F64719DDB33A00266872 /* selectCar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectCar@2x.png"; sourceTree = "<group>"; };
+		67B1F64819DDB33A00266872 /* selectGallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectGallery.png; sourceTree = "<group>"; };
+		67B1F64919DDB33A00266872 /* selectGallery@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectGallery@2x.png"; sourceTree = "<group>"; };
+		67B1F64A19DDB33A00266872 /* takeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takeButton.png; sourceTree = "<group>"; };
+		67B1F64B19DDB33A00266872 /* takeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takeButton@2x.png"; sourceTree = "<group>"; };
+		67B1F65F19DDB42600266872 /* bmw_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw_1.png; sourceTree = "<group>"; };
+		67B1F66019DDB42600266872 /* bmw_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw_2.png; sourceTree = "<group>"; };
+		67B1F66119DDB42600266872 /* bmw_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw_3.png; sourceTree = "<group>"; };
+		67B1F66219DDB42600266872 /* bmw_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw_4.png; sourceTree = "<group>"; };
+		67B1F66919DDB47F00266872 /* mail_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail_bg.png; sourceTree = "<group>"; };
+		67B2904519F004D900605F79 /* Aston-Martin-Virage-GlossYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aston-Martin-Virage-GlossYellow.png"; path = "heartcms/images/Aston-Martin-Virage-GlossYellow.png"; sourceTree = SOURCE_ROOT; };
+		67B2904619F004D900605F79 /* Aston-Martin-Virage-MatteBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aston-Martin-Virage-MatteBlue.png"; path = "heartcms/images/Aston-Martin-Virage-MatteBlue.png"; sourceTree = SOURCE_ROOT; };
+		67B2904719F004D900605F79 /* Aston-Martin-Virage-MattePink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aston-Martin-Virage-MattePink.png"; path = "heartcms/images/Aston-Martin-Virage-MattePink.png"; sourceTree = SOURCE_ROOT; };
+		67B2904819F004D900605F79 /* Aston-Martin-Virage-MatteRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aston-Martin-Virage-MatteRed.png"; path = "heartcms/images/Aston-Martin-Virage-MatteRed.png"; sourceTree = SOURCE_ROOT; };
+		67B2904919F004D900605F79 /* Audi-r8-gloss-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Audi-r8-gloss-blue.png"; path = "heartcms/images/Audi-r8-gloss-blue.png"; sourceTree = SOURCE_ROOT; };
+		67B2904A19F004D900605F79 /* Audi-r8-gloss-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Audi-r8-gloss-orange.png"; path = "heartcms/images/Audi-r8-gloss-orange.png"; sourceTree = SOURCE_ROOT; };
+		67B2904B19F004D900605F79 /* Audi-r8-matte-gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Audi-r8-matte-gold.png"; path = "heartcms/images/Audi-r8-matte-gold.png"; sourceTree = SOURCE_ROOT; };
+		67B2904C19F004D900605F79 /* Audi-r8-matte-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Audi-r8-matte-red.png"; path = "heartcms/images/Audi-r8-matte-red.png"; sourceTree = SOURCE_ROOT; };
+		67B2904D19F004D900605F79 /* Bentley-Continental-GT-gloss-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bentley-Continental-GT-gloss-orange.png"; path = "heartcms/images/Bentley-Continental-GT-gloss-orange.png"; sourceTree = SOURCE_ROOT; };
+		67B2904E19F004D900605F79 /* Bentley-Continental-GT-gloss-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bentley-Continental-GT-gloss-yellow.png"; path = "heartcms/images/Bentley-Continental-GT-gloss-yellow.png"; sourceTree = SOURCE_ROOT; };
+		67B2904F19F004D900605F79 /* Bentley-Continental-GT-matte-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bentley-Continental-GT-matte-orange.png"; path = "heartcms/images/Bentley-Continental-GT-matte-orange.png"; sourceTree = SOURCE_ROOT; };
+		67B2905019F004D900605F79 /* Bentley-Continental-GT-matte-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bentley-Continental-GT-matte-red.png"; path = "heartcms/images/Bentley-Continental-GT-matte-red.png"; sourceTree = SOURCE_ROOT; };
+		67B2905119F004D900605F79 /* Ferrari-458-gloss-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ferrari-458-gloss-orange.png"; path = "heartcms/images/Ferrari-458-gloss-orange.png"; sourceTree = SOURCE_ROOT; };
+		67B2905219F004D900605F79 /* Ferrari-458-gloss-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ferrari-458-gloss-yellow.png"; path = "heartcms/images/Ferrari-458-gloss-yellow.png"; sourceTree = SOURCE_ROOT; };
+		67B2905319F004D900605F79 /* Ferrari-458-matte-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ferrari-458-matte-blue.png"; path = "heartcms/images/Ferrari-458-matte-blue.png"; sourceTree = SOURCE_ROOT; };
+		67B2905419F004D900605F79 /* Ferrari-458-matte-purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ferrari-458-matte-purple.png"; path = "heartcms/images/Ferrari-458-matte-purple.png"; sourceTree = SOURCE_ROOT; };
+		67B2905519F004D900605F79 /* LaFerrari-gloss-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaFerrari-gloss-blue.png"; path = "heartcms/images/LaFerrari-gloss-blue.png"; sourceTree = SOURCE_ROOT; };
+		67B2905619F004D900605F79 /* LaFerrari-gloss-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaFerrari-gloss-green.png"; path = "heartcms/images/LaFerrari-gloss-green.png"; sourceTree = SOURCE_ROOT; };
+		67B2905719F004D900605F79 /* LaFerrari-matte-brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaFerrari-matte-brown.png"; path = "heartcms/images/LaFerrari-matte-brown.png"; sourceTree = SOURCE_ROOT; };
+		67B2905819F004D900605F79 /* LaFerrari-matte-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaFerrari-matte-pink.png"; path = "heartcms/images/LaFerrari-matte-pink.png"; sourceTree = SOURCE_ROOT; };
+		67B2905919F004D900605F79 /* LamborghiniAventador-gloss-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LamborghiniAventador-gloss-orange.png"; path = "heartcms/images/LamborghiniAventador-gloss-orange.png"; sourceTree = SOURCE_ROOT; };
+		67B2905A19F004D900605F79 /* LamborghiniAventador-gloss-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LamborghiniAventador-gloss-yellow.png"; path = "heartcms/images/LamborghiniAventador-gloss-yellow.png"; sourceTree = SOURCE_ROOT; };
+		67B2905B19F004D900605F79 /* LamborghiniAventador-matte-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LamborghiniAventador-matte-green.png"; path = "heartcms/images/LamborghiniAventador-matte-green.png"; sourceTree = SOURCE_ROOT; };
+		67B2905C19F004D900605F79 /* LamborghiniAventador-matte-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LamborghiniAventador-matte-red.png"; path = "heartcms/images/LamborghiniAventador-matte-red.png"; sourceTree = SOURCE_ROOT; };
+		67B2907719F0292B00605F79 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		67B2907919F0293400605F79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		67B2907B19F029DB00605F79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		67B2907D19F029E500605F79 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		67B2907F19F029ED00605F79 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		67B2908119F029F400605F79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		67B2908319F029FD00605F79 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		67B2908519F02A0600605F79 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		67B2908719F02A1000605F79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		67B2908B19F0451D00605F79 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = heartcms/Bolts.framework; sourceTree = "<group>"; };
+		67B2908C19F0451D00605F79 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = heartcms/Parse.framework; sourceTree = "<group>"; };
+		67B2908F19F0456600605F79 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = heartcms/ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		67BAA10F19E70B5800723D51 /* DrawViewControllerGarage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawViewControllerGarage.h; path = images/DrawViewControllerGarage.h; sourceTree = "<group>"; };
+		67BAA11019E70B5800723D51 /* DrawViewControllerGarage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawViewControllerGarage.m; path = images/DrawViewControllerGarage.m; sourceTree = "<group>"; };
+		67BAA11219E7111100723D51 /* title_logo_gr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo_gr.png; sourceTree = "<group>"; };
+		67BBD3FE19E312AA002EFC81 /* TektonPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TektonPro-Bold.otf"; sourceTree = "<group>"; };
+		67BBD40019E3B245002EFC81 /* GarageTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GarageTutorialViewController.h; path = heartcms/GarageTutorialViewController.h; sourceTree = SOURCE_ROOT; };
+		67BBD40119E3B245002EFC81 /* GarageTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GarageTutorialViewController.m; path = heartcms/GarageTutorialViewController.m; sourceTree = SOURCE_ROOT; };
+		67BBD40319E3BB60002EFC81 /* select_car_from_garage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_car_from_garage.png; sourceTree = "<group>"; };
+		67BBD40519E3BECF002EFC81 /* youtub_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtub_video.png; sourceTree = "<group>"; };
+		67BBD40619E3BECF002EFC81 /* exit_tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit_tutorial.png; sourceTree = "<group>"; };
+		67BBD40919E40496002EFC81 /* take_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = take_picture.png; sourceTree = "<group>"; };
+		67BC1FE219ED6FB900C638AC /* apply_colo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apply_colo.png; sourceTree = "<group>"; };
+		67BCFD5919EC99600026D6E0 /* BMW-M4-matteGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BMW-M4-matteGreen.png"; path = "heartcms/images/BMW-M4-matteGreen.png"; sourceTree = SOURCE_ROOT; };
+		67BCFD5A19EC99600026D6E0 /* gtr-mattegreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gtr-mattegreen.png"; path = "heartcms/images/gtr-mattegreen.png"; sourceTree = SOURCE_ROOT; };
+		67BCFD5B19EC99600026D6E0 /* rangeroversport-matt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rangeroversport-matt.png"; path = "heartcms/images/rangeroversport-matt.png"; sourceTree = SOURCE_ROOT; };
+		67BCFD5C19EC99600026D6E0 /* rangeroversport-mattblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rangeroversport-mattblue.png"; path = "heartcms/images/rangeroversport-mattblue.png"; sourceTree = SOURCE_ROOT; };
+		67BCFD5D19EC99600026D6E0 /* VWGlofGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VWGlofGreen.png; path = heartcms/images/VWGlofGreen.png; sourceTree = SOURCE_ROOT; };
+		67BCFD5E19EC99600026D6E0 /* VWGlofmatteorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VWGlofmatteorange.png; path = heartcms/images/VWGlofmatteorange.png; sourceTree = SOURCE_ROOT; };
+		67BCFD5F19EC99600026D6E0 /* VWGlofmattepurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VWGlofmattepurple.png; path = heartcms/images/VWGlofmattepurple.png; sourceTree = SOURCE_ROOT; };
+		67BCFD6719EC9D620026D6E0 /* rangeroversport-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rangeroversport-pink.png"; path = "heartcms/images/rangeroversport-pink.png"; sourceTree = SOURCE_ROOT; };
+		67BCFD6819EC9D620026D6E0 /* rangeroversport-purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rangeroversport-purple.png"; path = "heartcms/images/rangeroversport-purple.png"; sourceTree = SOURCE_ROOT; };
+		67E3E07C19E9734B00CC1B95 /* ka_matte_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ka_matte_green.png; path = heartcms/images/ka_matte_green.png; sourceTree = SOURCE_ROOT; };
+		67EC18E819E4D16F005E27B1 /* gtr-limegreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gtr-limegreen.png"; sourceTree = "<group>"; };
+		67EC18E919E4D16F005E27B1 /* gtr-matteblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gtr-matteblue.png"; sourceTree = "<group>"; };
+		67EC18EA19E4D16F005E27B1 /* gtr-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gtr-orange.png"; sourceTree = "<group>"; };
+		67EC18EE19E4D175005E27B1 /* ka-lightblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ka-lightblue.png"; sourceTree = "<group>"; };
+		67EC18EF19E4D175005E27B1 /* ka-matte-brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ka-matte-brown.png"; sourceTree = "<group>"; };
+		67EC18F019E4D175005E27B1 /* ka-metallic-purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ka-metallic-purple.png"; sourceTree = "<group>"; };
+		67EC18F119E4D175005E27B1 /* kablack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kablack.png; sourceTree = "<group>"; };
+		67EC18F719E4D17E005E27B1 /* BMW-M4-matteBrown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMW-M4-matteBrown.png"; sourceTree = "<group>"; };
+		67EC18F819E4D17E005E27B1 /* BMW-M4-Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMW-M4-Orange.png"; sourceTree = "<group>"; };
+		67EC18F919E4D17E005E27B1 /* BMW-M4-Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BMW-M4-Yellow.png"; sourceTree = "<group>"; };
+		67EC18FE19E4D185005E27B1 /* mini-cooper-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini-cooper-blue.png"; sourceTree = "<group>"; };
+		67EC18FF19E4D185005E27B1 /* mini-cooper-matte-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini-cooper-matte-blue.png"; sourceTree = "<group>"; };
+		67EC190019E4D185005E27B1 /* mini-cooper-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini-cooper-orange.png"; sourceTree = "<group>"; };
+		67EC190119E4D185005E27B1 /* mini-cooper-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini-cooper-yellow.png"; sourceTree = "<group>"; };
+		67EC190619E4D18E005E27B1 /* VWGolf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VWGolf.png; sourceTree = "<group>"; };
+		67EC190719E4D18E005E27B1 /* VWGolfMatteGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VWGolfMatteGrey.png; sourceTree = "<group>"; };
+		67EC190819E4D18E005E27B1 /* VWGolfRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VWGolfRed.png; sourceTree = "<group>"; };
+		67EC190919E4D18E005E27B1 /* VWGolfwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VWGolfwhite.png; sourceTree = "<group>"; };
+		67F7E74D19E2961B00FB3854 /* bmw_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw_5.png; sourceTree = "<group>"; };
+		67F7E74E19E2961B00FB3854 /* bmw_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw_6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B1F58319DDAFC100266872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B2908819F02A1000605F79 /* SystemConfiguration.framework in Frameworks */,
+				67B2908619F02A0600605F79 /* StoreKit.framework in Frameworks */,
+				67B2908419F029FD00605F79 /* Security.framework in Frameworks */,
+				67B2908219F029F400605F79 /* QuartzCore.framework in Frameworks */,
+				67B2908E19F0451D00605F79 /* Parse.framework in Frameworks */,
+				67B2908019F029ED00605F79 /* MobileCoreServices.framework in Frameworks */,
+				67B2907E19F029E500605F79 /* libz.dylib in Frameworks */,
+				67B2907C19F029DB00605F79 /* CoreLocation.framework in Frameworks */,
+				67B1F58C19DDAFC100266872 /* CoreGraphics.framework in Frameworks */,
+				67B2907A19F0293400605F79 /* CFNetwork.framework in Frameworks */,
+				67B2907819F0292B00605F79 /* AudioToolbox.framework in Frameworks */,
+				67B1F62819DDB13700266872 /* AssetsLibrary.framework in Frameworks */,
+				67B1F58E19DDAFC100266872 /* UIKit.framework in Frameworks */,
+				67B1F58A19DDAFC100266872 /* Foundation.framework in Frameworks */,
+				67B2909019F0456600605F79 /* ParseFacebookUtils.framework in Frameworks */,
+				67B2908D19F0451D00605F79 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B1F5A419DDAFC100266872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B1F5A919DDAFC100266872 /* XCTest.framework in Frameworks */,
+				67B1F5AB19DDAFC100266872 /* UIKit.framework in Frameworks */,
+				67B1F5AA19DDAFC100266872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FD489CC19E05F71000EBDD1 /* ComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				3FD489CD19E05F71000EBDD1 /* dropdown.png */,
+				3FD489CE19E05F71000EBDD1 /* dropup.png */,
+				3FD489CF19E05F71000EBDD1 /* SelectionCell.h */,
+				3FD489D019E05F71000EBDD1 /* SelectionCell.m */,
+				3FD489D119E05F71000EBDD1 /* SelectionCell.xib */,
+				3FD489D219E05F71000EBDD1 /* TableViewWithBlock.h */,
+				3FD489D319E05F71000EBDD1 /* TableViewWithBlock.m */,
+				3FD489D419E05F71000EBDD1 /* UITableView+DataSourceBlocks.h */,
+				3FD489D519E05F71000EBDD1 /* UITableView+DataSourceBlocks.m */,
+				3FD489D619E05F71000EBDD1 /* UITableView+DelegateBlocks.h */,
+				3FD489D719E05F71000EBDD1 /* UITableView+DelegateBlocks.m */,
+			);
+			path = ComboBox;
+			sourceTree = "<group>";
+		};
+		67B1F57D19DDAFC100266872 = {
+			isa = PBXGroup;
+			children = (
+				67B1F62C19DDB25F00266872 /* Default-568h@2x.png */,
+				67B1F62D19DDB25F00266872 /* Default.png */,
+				67B1F62E19DDB25F00266872 /* Default@2x.png */,
+				3FDD118A19F59C61001E1CCD /* icon_120.png */,
+				3FDD118B19F59C62001E1CCD /* icon_180.png */,
+				3FDD118C19F59C62001E1CCD /* icon_80.png */,
+				3FDD118D19F59C62001E1CCD /* icon_58.png */,
+				67B1F58F19DDAFC100266872 /* HeartCMS */,
+				67B1F5AE19DDAFC100266872 /* HeartCMSTests */,
+				67B1F58819DDAFC100266872 /* Frameworks */,
+				67B1F58719DDAFC100266872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67B1F58719DDAFC100266872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B1F58619DDAFC100266872 /* WrapApp.app */,
+				67B1F5A719DDAFC100266872 /* HeartCMSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67B1F58819DDAFC100266872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67B2908F19F0456600605F79 /* ParseFacebookUtils.framework */,
+				67B2908B19F0451D00605F79 /* Bolts.framework */,
+				67B2908C19F0451D00605F79 /* Parse.framework */,
+				67B2908719F02A1000605F79 /* SystemConfiguration.framework */,
+				67B2908519F02A0600605F79 /* StoreKit.framework */,
+				67B2908319F029FD00605F79 /* Security.framework */,
+				67B2908119F029F400605F79 /* QuartzCore.framework */,
+				67B2907F19F029ED00605F79 /* MobileCoreServices.framework */,
+				67B2907D19F029E500605F79 /* libz.dylib */,
+				67B2907B19F029DB00605F79 /* CoreLocation.framework */,
+				67B2907919F0293400605F79 /* CFNetwork.framework */,
+				67B2907719F0292B00605F79 /* AudioToolbox.framework */,
+				67B1F62719DDB13700266872 /* AssetsLibrary.framework */,
+				67B1F58919DDAFC100266872 /* Foundation.framework */,
+				67B1F58B19DDAFC100266872 /* CoreGraphics.framework */,
+				67B1F58D19DDAFC100266872 /* UIKit.framework */,
+				67B1F5A819DDAFC100266872 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67B1F58F19DDAFC100266872 /* HeartCMS */ = {
+			isa = PBXGroup;
+			children = (
+				67A73D8319ED64740080DAC0 /* DrawViewControllerPhoto.h */,
+				67A73D8419ED64740080DAC0 /* DrawViewControllerPhoto.m */,
+				67BAA10F19E70B5800723D51 /* DrawViewControllerGarage.h */,
+				67BAA11019E70B5800723D51 /* DrawViewControllerGarage.m */,
+				67BBD40019E3B245002EFC81 /* GarageTutorialViewController.h */,
+				67BBD40119E3B245002EFC81 /* GarageTutorialViewController.m */,
+				67ACEFBF19E27AE80056B950 /* GalleryViewController.h */,
+				67ACEFC019E27AE80056B950 /* GalleryViewController.m */,
+				3FD489CC19E05F71000EBDD1 /* ComboBox */,
+				67B1F63819DDB33A00266872 /* images */,
+				67B1F62919DDB16D00266872 /* ImageViewWithDraw.h */,
+				67B1F62A19DDB16D00266872 /* ImageViewWithDraw.m */,
+				67B1F61919DDB0A600266872 /* PictureEditViewController.h */,
+				67B1F61A19DDB0A600266872 /* PictureEditViewController.m */,
+				67B1F61B19DDB0A600266872 /* TextFieldTableViewCell.h */,
+				67B1F61C19DDB0A600266872 /* TextFieldTableViewCell.m */,
+				67B1F61D19DDB0A600266872 /* TextViewTableViewCell.h */,
+				67B1F61E19DDB0A600266872 /* TextViewTableViewCell.m */,
+				67B1F61F19DDB0A600266872 /* UIImage+fixOrientation.h */,
+				67B1F62019DDB0A600266872 /* UIImage+fixOrientation.m */,
+				67B1F61319DDB04C00266872 /* GarageViewController.h */,
+				67B1F61419DDB04C00266872 /* GarageViewController.m */,
+				67B1F60D19DDB04600266872 /* DrawViewController.h */,
+				67B1F60E19DDB04600266872 /* DrawViewController.m */,
+				67B1F60F19DDB04600266872 /* EmailFormControllerViewController.h */,
+				67B1F61019DDB04600266872 /* EmailFormControllerViewController.m */,
+				67B1F60A19DDB04000266872 /* ButtonTableViewCell.h */,
+				67B1F60B19DDB04000266872 /* ButtonTableViewCell.m */,
+				67B1F60719DDB03900266872 /* BaseViewController.h */,
+				67B1F60819DDB03900266872 /* BaseViewController.m */,
+				67B1F60419DDAFFA00266872 /* MainViewController.h */,
+				67B1F60519DDAFFA00266872 /* MainViewController.m */,
+				67B1F5C519DDAFF000266872 /* Libraries */,
+				67B1F5BE19DDAFEA00266872 /* MKStore */,
+				67B1F59819DDAFC100266872 /* AppDelegate.h */,
+				67B1F59919DDAFC100266872 /* AppDelegate.m */,
+				67B1F59B19DDAFC100266872 /* Main.storyboard */,
+				67B1F59E19DDAFC100266872 /* ViewController.h */,
+				67B1F59F19DDAFC100266872 /* ViewController.m */,
+				67B1F5A119DDAFC100266872 /* Images.xcassets */,
+				67B1F59019DDAFC100266872 /* Supporting Files */,
+			);
+			path = HeartCMS;
+			sourceTree = "<group>";
+		};
+		67B1F59019DDAFC100266872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B1F59119DDAFC100266872 /* HeartCMS-Info.plist */,
+				67B1F59219DDAFC100266872 /* InfoPlist.strings */,
+				67B1F59519DDAFC100266872 /* main.m */,
+				67B1F59719DDAFC100266872 /* HeartCMS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67B1F5AE19DDAFC100266872 /* HeartCMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				67B1F5B419DDAFC100266872 /* HeartCMSTests.m */,
+				67B1F5AF19DDAFC100266872 /* Supporting Files */,
+			);
+			path = HeartCMSTests;
+			sourceTree = "<group>";
+		};
+		67B1F5AF19DDAFC100266872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B1F5B019DDAFC100266872 /* HeartCMSTests-Info.plist */,
+				67B1F5B119DDAFC100266872 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67B1F5BE19DDAFEA00266872 /* MKStore */ = {
+			isa = PBXGroup;
+			children = (
+				67B1F5BF19DDAFEA00266872 /* MKStoreManager.h */,
+				67B1F5C019DDAFEA00266872 /* MKStoreManager.m */,
+				67B1F5C119DDAFEA00266872 /* MKStoreObserver.h */,
+				67B1F5C219DDAFEA00266872 /* MKStoreObserver.m */,
+			);
+			path = MKStore;
+			sourceTree = "<group>";
+		};
+		67B1F5C519DDAFF000266872 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				67B1F5C619DDAFF000266872 /* Colorpicker */,
+				67B1F5DA19DDAFF000266872 /* iCarousel */,
+				67B1F5DD19DDAFF000266872 /* ImageAdditions */,
+				67B1F5ED19DDAFF000266872 /* UIColor+Util.h */,
+				67B1F5EE19DDAFF000266872 /* UIColor+Util.m */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		67B1F5C619DDAFF000266872 /* Colorpicker */ = {
+			isa = PBXGroup;
+			children = (
+				67B1F5C719DDAFF000266872 /* colorPicker.bundle */,
+				67B1F5C819DDAFF000266872 /* NEOColorPickerBaseViewController.h */,
+				67B1F5C919DDAFF000266872 /* NEOColorPickerBaseViewController.m */,
+				67B1F5CA19DDAFF000266872 /* NEOColorPickerFavoritesViewController.h */,
+				67B1F5CB19DDAFF000266872 /* NEOColorPickerFavoritesViewController.m */,
+				67B1F5CC19DDAFF000266872 /* NEOColorPickerFavoritesViewController.xib */,
+				67B1F5CD19DDAFF000266872 /* NEOColorPickerGradientView.h */,
+				67B1F5CE19DDAFF000266872 /* NEOColorPickerGradientView.m */,
+				67B1F5CF19DDAFF000266872 /* NEOColorPickerHSLViewController.h */,
+				67B1F5D019DDAFF000266872 /* NEOColorPickerHSLViewController.m */,
+				67B1F5D119DDAFF000266872 /* NEOColorPickerHSLViewController.xib */,
+				67B1F5D219DDAFF000266872 /* NEOColorPickerHueGridViewController.h */,
+				67B1F5D319DDAFF000266872 /* NEOColorPickerHueGridViewController.m */,
+				67B1F5D419DDAFF000266872 /* NEOColorPickerHueGridViewController.xib */,
+				67B1F5D519DDAFF000266872 /* NEOColorPickerViewController.h */,
+				67B1F5D619DDAFF000266872 /* NEOColorPickerViewController.m */,
+				67B1F5D719DDAFF000266872 /* NEOColorPickerViewController.xib */,
+				67B1F5D819DDAFF000266872 /* UIColor+NEOColor.h */,
+				67B1F5D919DDAFF000266872 /* UIColor+NEOColor.m */,
+			);
+			path = Colorpicker;
+			sourceTree = "<group>";
+		};
+		67B1F5DA19DDAFF000266872 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				67B1F5DB19DDAFF000266872 /* iCarousel.h */,
+				67B1F5DC19DDAFF000266872 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		67B1F5DD19DDAFF000266872 /* ImageAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				67B1F5DE19DDAFF000266872 /* CKImageAdditions.h */,
+				67B1F5DF19DDAFF000266872 /* CoreGraphicsAdditions.c */,
+				67B1F5E019DDAFF000266872 /* CoreGraphicsAdditions.h */,
+				67B1F5E119DDAFF000266872 /* UIImage+ImageBlending.h */,
+				67B1F5E219DDAFF000266872 /* UIImage+ImageBlending.m */,
+				67B1F5E319DDAFF000266872 /* UIImage+ImageColoring.h */,
+				67B1F5E419DDAFF000266872 /* UIImage+ImageColoring.m */,
+				67B1F5E519DDAFF000266872 /* UIImage+ImageResizing.h */,
+				67B1F5E619DDAFF000266872 /* UIImage+ImageResizing.m */,
+				67B1F5E719DDAFF000266872 /* UIImage+ImageRounding.h */,
+				67B1F5E819DDAFF000266872 /* UIImage+ImageRounding.m */,
+				67B1F5E919DDAFF000266872 /* UIImage+ImageTrimming.h */,
+				67B1F5EA19DDAFF000266872 /* UIImage+ImageTrimming.m */,
+				67B1F5EB19DDAFF000266872 /* UIKitAdditions.h */,
+				67B1F5EC19DDAFF000266872 /* UIKitAdditions.m */,
+			);
+			path = ImageAdditions;
+			sourceTree = "<group>";
+		};
+		67B1F63819DDB33A00266872 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3FB6369019F40B76008E41EB /* newscreentutorial.png */,
+				3FB6369119F40B76008E41EB /* exitbutton_for_tut.png */,
+				3F1F68FF19F154E800C191A4 /* huesat.png */,
+				3F1F68FD19F14DD900C191A4 /* gra_back_buttons.png */,
+				3F1F68F919F140D500C191A4 /* buttons_appl.png */,
+				3F1F68F519F0B4AF00C191A4 /* title_back.png */,
+				3F1F68F719F10D7500C191A4 /* gallery_back.png */,
+				67B2904519F004D900605F79 /* Aston-Martin-Virage-GlossYellow.png */,
+				67B2904619F004D900605F79 /* Aston-Martin-Virage-MatteBlue.png */,
+				67B2904719F004D900605F79 /* Aston-Martin-Virage-MattePink.png */,
+				67B2904819F004D900605F79 /* Aston-Martin-Virage-MatteRed.png */,
+				67B2904919F004D900605F79 /* Audi-r8-gloss-blue.png */,
+				67B2904A19F004D900605F79 /* Audi-r8-gloss-orange.png */,
+				67B2904B19F004D900605F79 /* Audi-r8-matte-gold.png */,
+				67B2904C19F004D900605F79 /* Audi-r8-matte-red.png */,
+				67B2904D19F004D900605F79 /* Bentley-Continental-GT-gloss-orange.png */,
+				67B2904E19F004D900605F79 /* Bentley-Continental-GT-gloss-yellow.png */,
+				67B2904F19F004D900605F79 /* Bentley-Continental-GT-matte-orange.png */,
+				67B2905019F004D900605F79 /* Bentley-Continental-GT-matte-red.png */,
+				67B2905119F004D900605F79 /* Ferrari-458-gloss-orange.png */,
+				67B2905219F004D900605F79 /* Ferrari-458-gloss-yellow.png */,
+				67B2905319F004D900605F79 /* Ferrari-458-matte-blue.png */,
+				67B2905419F004D900605F79 /* Ferrari-458-matte-purple.png */,
+				67B2905519F004D900605F79 /* LaFerrari-gloss-blue.png */,
+				67B2905619F004D900605F79 /* LaFerrari-gloss-green.png */,
+				67B2905719F004D900605F79 /* LaFerrari-matte-brown.png */,
+				67B2905819F004D900605F79 /* LaFerrari-matte-pink.png */,
+				67B2905919F004D900605F79 /* LamborghiniAventador-gloss-orange.png */,
+				67B2905A19F004D900605F79 /* LamborghiniAventador-gloss-yellow.png */,
+				67B2905B19F004D900605F79 /* LamborghiniAventador-matte-green.png */,
+				67B2905C19F004D900605F79 /* LamborghiniAventador-matte-red.png */,
+				67A31B0219ED86C1002FD621 /* pick_btn.png */,
+				67A31B0319ED86C1002FD621 /* warpp_btn.png */,
+				67BC1FE219ED6FB900C638AC /* apply_colo.png */,
+				67BCFD5919EC99600026D6E0 /* BMW-M4-matteGreen.png */,
+				67BCFD6719EC9D620026D6E0 /* rangeroversport-pink.png */,
+				67BCFD6819EC9D620026D6E0 /* rangeroversport-purple.png */,
+				67BCFD5A19EC99600026D6E0 /* gtr-mattegreen.png */,
+				67BCFD5B19EC99600026D6E0 /* rangeroversport-matt.png */,
+				67BCFD5C19EC99600026D6E0 /* rangeroversport-mattblue.png */,
+				67BCFD5D19EC99600026D6E0 /* VWGlofGreen.png */,
+				67BCFD5E19EC99600026D6E0 /* VWGlofmatteorange.png */,
+				67BCFD5F19EC99600026D6E0 /* VWGlofmattepurple.png */,
+				67E3E07C19E9734B00CC1B95 /* ka_matte_green.png */,
+				679E430019E71529009FA2B4 /* btn_changcolour.png */,
+				679E430119E71529009FA2B4 /* btn_clear.png */,
+				679E430219E71529009FA2B4 /* btn_delete.png */,
+				679E430319E71529009FA2B4 /* btn_menu.png */,
+				679E430419E71529009FA2B4 /* btn_redo.png */,
+				679E430519E71529009FA2B4 /* btn_save.png */,
+				679E430619E71529009FA2B4 /* btn_undo.png */,
+				679E430719E71529009FA2B4 /* btn_watch.png */,
+				679E430819E71529009FA2B4 /* btn_winafree.png */,
+				679E430919E71529009FA2B4 /* select_back.png */,
+				679E42FE19E71519009FA2B4 /* arrowdown.png */,
+				67BAA11219E7111100723D51 /* title_logo_gr.png */,
+				67A591F319E59AB900D53FA0 /* exit_btn_grar.png */,
+				67EC190619E4D18E005E27B1 /* VWGolf.png */,
+				67EC190719E4D18E005E27B1 /* VWGolfMatteGrey.png */,
+				67EC190819E4D18E005E27B1 /* VWGolfRed.png */,
+				67EC190919E4D18E005E27B1 /* VWGolfwhite.png */,
+				67EC18FE19E4D185005E27B1 /* mini-cooper-blue.png */,
+				67EC18FF19E4D185005E27B1 /* mini-cooper-matte-blue.png */,
+				67EC190019E4D185005E27B1 /* mini-cooper-orange.png */,
+				67EC190119E4D185005E27B1 /* mini-cooper-yellow.png */,
+				67EC18F719E4D17E005E27B1 /* BMW-M4-matteBrown.png */,
+				67EC18F819E4D17E005E27B1 /* BMW-M4-Orange.png */,
+				67EC18F919E4D17E005E27B1 /* BMW-M4-Yellow.png */,
+				67EC18EE19E4D175005E27B1 /* ka-lightblue.png */,
+				67EC18EF19E4D175005E27B1 /* ka-matte-brown.png */,
+				67EC18F019E4D175005E27B1 /* ka-metallic-purple.png */,
+				67EC18F119E4D175005E27B1 /* kablack.png */,
+				67EC18E819E4D16F005E27B1 /* gtr-limegreen.png */,
+				67EC18E919E4D16F005E27B1 /* gtr-matteblue.png */,
+				67EC18EA19E4D16F005E27B1 /* gtr-orange.png */,
+				67BBD40519E3BECF002EFC81 /* youtub_video.png */,
+				67BBD40919E40496002EFC81 /* take_picture.png */,
+				67BBD40619E3BECF002EFC81 /* exit_tutorial.png */,
+				67BBD40319E3BB60002EFC81 /* select_car_from_garage.png */,
+				67BBD3FE19E312AA002EFC81 /* TektonPro-Bold.otf */,
+				67ACEFC219E27FAD0056B950 /* next_btn.png */,
+				67ACEFC319E27FAD0056B950 /* logo_gal.png */,
+				67ACEFC419E27FAD0056B950 /* back_btn.png */,
+				67ACEFC519E27FAD0056B950 /* gallery_title.png */,
+				3FD489CA19E05843000EBDD1 /* color_back.png */,
+				3FD489C419E04BEA000EBDD1 /* delete_btn.png */,
+				3FD489C519E04BEA000EBDD1 /* redo_btn.png */,
+				3FD489C619E04BEA000EBDD1 /* undo_btn.png */,
+				67B1F66919DDB47F00266872 /* mail_bg.png */,
+				67B1F65F19DDB42600266872 /* bmw_1.png */,
+				67B1F66019DDB42600266872 /* bmw_2.png */,
+				67B1F66119DDB42600266872 /* bmw_3.png */,
+				67B1F66219DDB42600266872 /* bmw_4.png */,
+				67F7E74D19E2961B00FB3854 /* bmw_5.png */,
+				67F7E74E19E2961B00FB3854 /* bmw_6.png */,
+				67B1F63919DDB33A00266872 /* cancel.png */,
+				67B1F63A19DDB33A00266872 /* cancel@2x.png */,
+				67B1F63B19DDB33A00266872 /* done.png */,
+				67B1F63C19DDB33A00266872 /* done@2x.png */,
+				67B1F63D19DDB33A00266872 /* howtouse.png */,
+				67B1F63E19DDB33A00266872 /* icon_lock.png */,
+				67B1F63F19DDB33A00266872 /* icon_lock@2x.png */,
+				67B1F64019DDB33A00266872 /* iphone5yang.png */,
+				67B1F64119DDB33A00266872 /* lockicon.png */,
+				67B1F64219DDB33A00266872 /* lockicon@2x.png */,
+				67B1F64319DDB33A00266872 /* request.png */,
+				67B1F64419DDB33A00266872 /* requestButton.png */,
+				67B1F64519DDB33A00266872 /* requestButton@2x.png */,
+				67B1F64619DDB33A00266872 /* selectCar.png */,
+				67B1F64719DDB33A00266872 /* selectCar@2x.png */,
+				67B1F64819DDB33A00266872 /* selectGallery.png */,
+				67B1F64919DDB33A00266872 /* selectGallery@2x.png */,
+				67B1F64A19DDB33A00266872 /* takeButton.png */,
+				67B1F64B19DDB33A00266872 /* takeButton@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B1F58519DDAFC100266872 /* WrapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B1F5B819DDAFC100266872 /* Build configuration list for PBXNativeTarget "WrapApp" */;
+			buildPhases = (
+				67B1F58319DDAFC100266872 /* Frameworks */,
+				67B1F58219DDAFC100266872 /* Sources */,
+				67B1F58419DDAFC100266872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WrapApp;
+			productName = HeartCMS;
+			productReference = 67B1F58619DDAFC100266872 /* WrapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67B1F5A619DDAFC100266872 /* HeartCMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B1F5BB19DDAFC100266872 /* Build configuration list for PBXNativeTarget "HeartCMSTests" */;
+			buildPhases = (
+				67B1F5A319DDAFC100266872 /* Sources */,
+				67B1F5A419DDAFC100266872 /* Frameworks */,
+				67B1F5A519DDAFC100266872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B1F5AD19DDAFC100266872 /* PBXTargetDependency */,
+			);
+			name = HeartCMSTests;
+			productName = HeartCMSTests;
+			productReference = 67B1F5A719DDAFC100266872 /* HeartCMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67B1F57E19DDAFC100266872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					67B1F5A619DDAFC100266872 = {
+						DevelopmentTeam = 28JT7PE4W2;
+						TestTargetID = 67B1F58519DDAFC100266872;
+					};
+				};
+			};
+			buildConfigurationList = 67B1F58119DDAFC100266872 /* Build configuration list for PBXProject "WrapApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67B1F57D19DDAFC100266872;
+			productRefGroup = 67B1F58719DDAFC100266872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67B1F58519DDAFC100266872 /* WrapApp */,
+				67B1F5A619DDAFC100266872 /* HeartCMSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B1F58419DDAFC100266872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B1F65319DDB33A00266872 /* iphone5yang.png in Resources */,
+				67EC18FD19E4D17E005E27B1 /* BMW-M4-Yellow.png in Resources */,
+				67F7E75019E2961B00FB3854 /* bmw_6.png in Resources */,
+				679E431019E71529009FA2B4 /* btn_undo.png in Resources */,
+				67EC18FB19E4D17E005E27B1 /* BMW-M4-matteBrown.png in Resources */,
+				67B2906919F004D900605F79 /* Ferrari-458-gloss-orange.png in Resources */,
+				67BAA11319E7111100723D51 /* title_logo_gr.png in Resources */,
+				67BCFD6919EC9D620026D6E0 /* rangeroversport-pink.png in Resources */,
+				67EC18F319E4D175005E27B1 /* ka-matte-brown.png in Resources */,
+				67B2906419F004D900605F79 /* Audi-r8-matte-red.png in Resources */,
+				67EC190A19E4D18E005E27B1 /* VWGolf.png in Resources */,
+				67B1F5A219DDAFC100266872 /* Images.xcassets in Resources */,
+				3F1F68F619F0B4AF00C191A4 /* title_back.png in Resources */,
+				67B2906619F004D900605F79 /* Bentley-Continental-GT-gloss-yellow.png in Resources */,
+				67B2905F19F004D900605F79 /* Aston-Martin-Virage-MattePink.png in Resources */,
+				67B2906219F004D900605F79 /* Audi-r8-gloss-orange.png in Resources */,
+				67B1F5F719DDAFF000266872 /* NEOColorPickerHueGridViewController.xib in Resources */,
+				67B2906B19F004D900605F79 /* Ferrari-458-matte-blue.png in Resources */,
+				67B1F65219DDB33A00266872 /* icon_lock@2x.png in Resources */,
+				3FDD119119F59C62001E1CCD /* icon_58.png in Resources */,
+				67EC190C19E4D18E005E27B1 /* VWGolfRed.png in Resources */,
+				67B1F62F19DDB25F00266872 /* Default-568h@2x.png in Resources */,
+				67B1F65419DDB33A00266872 /* lockicon.png in Resources */,
+				3FB6369319F40B76008E41EB /* exitbutton_for_tut.png in Resources */,
+				67EC190319E4D185005E27B1 /* mini-cooper-matte-blue.png in Resources */,
+				67B2907219F004D900605F79 /* LamborghiniAventador-gloss-yellow.png in Resources */,
+				3FD489C919E04BEA000EBDD1 /* undo_btn.png in Resources */,
+				67B1F64E19DDB33A00266872 /* done.png in Resources */,
+				67B2907419F004D900605F79 /* LamborghiniAventador-matte-red.png in Resources */,
+				3FD489CB19E05843000EBDD1 /* color_back.png in Resources */,
+				67B2906519F004D900605F79 /* Bentley-Continental-GT-gloss-orange.png in Resources */,
+				67A31B0519ED86C1002FD621 /* warpp_btn.png in Resources */,
+				3F1F690019F154E800C191A4 /* huesat.png in Resources */,
+				67B2906E19F004D900605F79 /* LaFerrari-gloss-green.png in Resources */,
+				67BC1FE319ED6FB900C638AC /* apply_colo.png in Resources */,
+				67B1F65E19DDB33A00266872 /* takeButton@2x.png in Resources */,
+				67B1F64C19DDB33A00266872 /* cancel.png in Resources */,
+				679E430C19E71529009FA2B4 /* btn_delete.png in Resources */,
+				67B1F59419DDAFC100266872 /* InfoPlist.strings in Resources */,
+				3FD489DB19E05F71000EBDD1 /* SelectionCell.xib in Resources */,
+				67B1F65A19DDB33A00266872 /* selectCar@2x.png in Resources */,
+				679E431319E71529009FA2B4 /* select_back.png in Resources */,
+				67B1F66719DDB42600266872 /* bmw_4.png in Resources */,
+				67B1F65619DDB33A00266872 /* request.png in Resources */,
+				67B1F65719DDB33A00266872 /* requestButton.png in Resources */,
+				67B1F5F219DDAFF000266872 /* NEOColorPickerFavoritesViewController.xib in Resources */,
+				67BBD3FF19E312AA002EFC81 /* TektonPro-Bold.otf in Resources */,
+				67B1F66619DDB42600266872 /* bmw_3.png in Resources */,
+				3FD489D819E05F71000EBDD1 /* dropdown.png in Resources */,
+				679E431219E71529009FA2B4 /* btn_winafree.png in Resources */,
+				3FD489C719E04BEA000EBDD1 /* delete_btn.png in Resources */,
+				67B1F66A19DDB47F00266872 /* mail_bg.png in Resources */,
+				67E3E07D19E9734B00CC1B95 /* ka_matte_green.png in Resources */,
+				67BCFD6A19EC9D620026D6E0 /* rangeroversport-purple.png in Resources */,
+				67B2907319F004D900605F79 /* LamborghiniAventador-matte-green.png in Resources */,
+				67ACEFC919E27FAD0056B950 /* gallery_title.png in Resources */,
+				67BCFD6519EC99600026D6E0 /* VWGlofmatteorange.png in Resources */,
+				67ACEFC819E27FAD0056B950 /* back_btn.png in Resources */,
+				67ACEFC719E27FAD0056B950 /* logo_gal.png in Resources */,
+				67B1F63119DDB25F00266872 /* Default@2x.png in Resources */,
+				3F1F68FE19F14DD900C191A4 /* gra_back_buttons.png in Resources */,
+				67B1F65119DDB33A00266872 /* icon_lock.png in Resources */,
+				67B2907119F004D900605F79 /* LamborghiniAventador-gloss-orange.png in Resources */,
+				67BCFD6319EC99600026D6E0 /* rangeroversport-mattblue.png in Resources */,
+				67ACEFC619E27FAD0056B950 /* next_btn.png in Resources */,
+				67B2906A19F004D900605F79 /* Ferrari-458-gloss-yellow.png in Resources */,
+				67B1F66419DDB42600266872 /* bmw_1.png in Resources */,
+				67B1F65519DDB33A00266872 /* lockicon@2x.png in Resources */,
+				679E42FF19E71519009FA2B4 /* arrowdown.png in Resources */,
+				67BBD40A19E40496002EFC81 /* take_picture.png in Resources */,
+				67B1F64D19DDB33A00266872 /* cancel@2x.png in Resources */,
+				67EC190D19E4D18E005E27B1 /* VWGolfwhite.png in Resources */,
+				3FB6369219F40B76008E41EB /* newscreentutorial.png in Resources */,
+				67B2906D19F004D900605F79 /* LaFerrari-gloss-blue.png in Resources */,
+				67A31B0419ED86C1002FD621 /* pick_btn.png in Resources */,
+				3F1F68FA19F140D500C191A4 /* buttons_appl.png in Resources */,
+				67BCFD6119EC99600026D6E0 /* gtr-mattegreen.png in Resources */,
+				3FDD118E19F59C62001E1CCD /* icon_120.png in Resources */,
+				67B1F66519DDB42600266872 /* bmw_2.png in Resources */,
+				679E430B19E71529009FA2B4 /* btn_clear.png in Resources */,
+				67BCFD6419EC99600026D6E0 /* VWGlofGreen.png in Resources */,
+				67BCFD6619EC99600026D6E0 /* VWGlofmattepurple.png in Resources */,
+				67F7E74F19E2961B00FB3854 /* bmw_5.png in Resources */,
+				67B2906119F004D900605F79 /* Audi-r8-gloss-blue.png in Resources */,
+				67B2906F19F004D900605F79 /* LaFerrari-matte-brown.png in Resources */,
+				67EC18EB19E4D16F005E27B1 /* gtr-limegreen.png in Resources */,
+				67B1F5F519DDAFF000266872 /* NEOColorPickerHSLViewController.xib in Resources */,
+				67EC18F219E4D175005E27B1 /* ka-lightblue.png in Resources */,
+				67B1F59D19DDAFC100266872 /* Main.storyboard in Resources */,
+				67EC190219E4D185005E27B1 /* mini-cooper-blue.png in Resources */,
+				679E430E19E71529009FA2B4 /* btn_redo.png in Resources */,
+				67EC18EC19E4D16F005E27B1 /* gtr-matteblue.png in Resources */,
+				67B1F5F919DDAFF000266872 /* NEOColorPickerViewController.xib in Resources */,
+				67EC18F419E4D175005E27B1 /* ka-metallic-purple.png in Resources */,
+				67BBD40719E3BECF002EFC81 /* youtub_video.png in Resources */,
+				67B1F5EF19DDAFF000266872 /* colorPicker.bundle in Resources */,
+				67EC18FC19E4D17E005E27B1 /* BMW-M4-Orange.png in Resources */,
+				3FDD118F19F59C62001E1CCD /* icon_180.png in Resources */,
+				67B2905D19F004D900605F79 /* Aston-Martin-Virage-GlossYellow.png in Resources */,
+				67B1F65919DDB33A00266872 /* selectCar.png in Resources */,
+				679E431119E71529009FA2B4 /* btn_watch.png in Resources */,
+				67B2905E19F004D900605F79 /* Aston-Martin-Virage-MatteBlue.png in Resources */,
+				3FD489C819E04BEA000EBDD1 /* redo_btn.png in Resources */,
+				67EC190B19E4D18E005E27B1 /* VWGolfMatteGrey.png in Resources */,
+				67BCFD6219EC99600026D6E0 /* rangeroversport-matt.png in Resources */,
+				67B2906719F004D900605F79 /* Bentley-Continental-GT-matte-orange.png in Resources */,
+				67B1F65019DDB33A00266872 /* howtouse.png in Resources */,
+				67B2906019F004D900605F79 /* Aston-Martin-Virage-MatteRed.png in Resources */,
+				67BCFD6019EC99600026D6E0 /* BMW-M4-matteGreen.png in Resources */,
+				3FD489D919E05F71000EBDD1 /* dropup.png in Resources */,
+				679E430A19E71529009FA2B4 /* btn_changcolour.png in Resources */,
+				3F1F68F819F10D7500C191A4 /* gallery_back.png in Resources */,
+				67B1F64F19DDB33A00266872 /* done@2x.png in Resources */,
+				679E430F19E71529009FA2B4 /* btn_save.png in Resources */,
+				67BBD40819E3BECF002EFC81 /* exit_tutorial.png in Resources */,
+				67A591F519E59AB900D53FA0 /* exit_btn_grar.png in Resources */,
+				67B2907019F004D900605F79 /* LaFerrari-matte-pink.png in Resources */,
+				67B2906319F004D900605F79 /* Audi-r8-matte-gold.png in Resources */,
+				67B1F65819DDB33A00266872 /* requestButton@2x.png in Resources */,
+				67B1F65C19DDB33A00266872 /* selectGallery@2x.png in Resources */,
+				67EC190419E4D185005E27B1 /* mini-cooper-orange.png in Resources */,
+				679E430D19E71529009FA2B4 /* btn_menu.png in Resources */,
+				67B1F63019DDB25F00266872 /* Default.png in Resources */,
+				67BBD40419E3BB60002EFC81 /* select_car_from_garage.png in Resources */,
+				67B1F65D19DDB33A00266872 /* takeButton.png in Resources */,
+				67EC190519E4D185005E27B1 /* mini-cooper-yellow.png in Resources */,
+				67B1F65B19DDB33A00266872 /* selectGallery.png in Resources */,
+				3FDD119019F59C62001E1CCD /* icon_80.png in Resources */,
+				67EC18ED19E4D16F005E27B1 /* gtr-orange.png in Resources */,
+				67B2906C19F004D900605F79 /* Ferrari-458-matte-purple.png in Resources */,
+				67B2906819F004D900605F79 /* Bentley-Continental-GT-matte-red.png in Resources */,
+				67EC18F519E4D175005E27B1 /* kablack.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B1F5A519DDAFC100266872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B1F5B319DDAFC100266872 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B1F58219DDAFC100266872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B1F5FD19DDAFF000266872 /* UIImage+ImageBlending.m in Sources */,
+				67B1F5F819DDAFF000266872 /* NEOColorPickerViewController.m in Sources */,
+				3FD489DD19E05F71000EBDD1 /* UITableView+DataSourceBlocks.m in Sources */,
+				67B1F5A019DDAFC100266872 /* ViewController.m in Sources */,
+				67B1F5F419DDAFF000266872 /* NEOColorPickerHSLViewController.m in Sources */,
+				67B1F60219DDAFF000266872 /* UIKitAdditions.m in Sources */,
+				67B1F5F619DDAFF000266872 /* NEOColorPickerHueGridViewController.m in Sources */,
+				67B1F5F119DDAFF000266872 /* NEOColorPickerFavoritesViewController.m in Sources */,
+				67B1F62419DDB0A600266872 /* TextViewTableViewCell.m in Sources */,
+				67B1F5FB19DDAFF000266872 /* iCarousel.m in Sources */,
+				67B1F59A19DDAFC100266872 /* AppDelegate.m in Sources */,
+				67A73D8519ED64740080DAC0 /* DrawViewControllerPhoto.m in Sources */,
+				67B1F62319DDB0A600266872 /* TextFieldTableViewCell.m in Sources */,
+				67BAA11119E70B5800723D51 /* DrawViewControllerGarage.m in Sources */,
+				67B1F60119DDAFF000266872 /* UIImage+ImageTrimming.m in Sources */,
+				67B1F60319DDAFF000266872 /* UIColor+Util.m in Sources */,
+				67B1F62B19DDB16D00266872 /* ImageViewWithDraw.m in Sources */,
+				67B1F62519DDB0A600266872 /* UIImage+fixOrientation.m in Sources */,
+				67B1F60619DDAFFA00266872 /* MainViewController.m in Sources */,
+				67BBD40219E3B245002EFC81 /* GarageTutorialViewController.m in Sources */,
+				67B1F5FC19DDAFF000266872 /* CoreGraphicsAdditions.c in Sources */,
+				67B1F5F019DDAFF000266872 /* NEOColorPickerBaseViewController.m in Sources */,
+				67B1F59619DDAFC100266872 /* main.m in Sources */,
+				67B1F61219DDB04600266872 /* EmailFormControllerViewController.m in Sources */,
+				67B1F61519DDB04C00266872 /* GarageViewController.m in Sources */,
+				67B1F60019DDAFF000266872 /* UIImage+ImageRounding.m in Sources */,
+				67B1F61119DDB04600266872 /* DrawViewController.m in Sources */,
+				3FD489DE19E05F71000EBDD1 /* UITableView+DelegateBlocks.m in Sources */,
+				67B1F5C319DDAFEA00266872 /* MKStoreManager.m in Sources */,
+				67B1F5C419DDAFEA00266872 /* MKStoreObserver.m in Sources */,
+				3FD489DC19E05F71000EBDD1 /* TableViewWithBlock.m in Sources */,
+				67B1F5FA19DDAFF000266872 /* UIColor+NEOColor.m in Sources */,
+				67B1F5FF19DDAFF000266872 /* UIImage+ImageResizing.m in Sources */,
+				3FD489DA19E05F71000EBDD1 /* SelectionCell.m in Sources */,
+				67ACEFC119E27AE80056B950 /* GalleryViewController.m in Sources */,
+				67B1F5FE19DDAFF000266872 /* UIImage+ImageColoring.m in Sources */,
+				67B1F5F319DDAFF000266872 /* NEOColorPickerGradientView.m in Sources */,
+				67B1F60919DDB03900266872 /* BaseViewController.m in Sources */,
+				67B1F60C19DDB04000266872 /* ButtonTableViewCell.m in Sources */,
+				67B1F62219DDB0A600266872 /* PictureEditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B1F5A319DDAFC100266872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B1F5B519DDAFC100266872 /* HeartCMSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67B1F5AD19DDAFC100266872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B1F58519DDAFC100266872 /* WrapApp */;
+			targetProxy = 67B1F5AC19DDAFC100266872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67B1F59219DDAFC100266872 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B1F59319DDAFC100266872 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67B1F59B19DDAFC100266872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B1F59C19DDAFC100266872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67B1F5B119DDAFC100266872 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B1F5B219DDAFC100266872 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67B1F5B619DDAFC100266872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Virtual Check Up (96KGYK89EF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Virtual Check Up (96KGYK89EF)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "16913596-e7ed-47ff-91b6-38e3049d0f69";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67B1F5B719DDAFC100266872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Virtual Check Up (96KGYK89EF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Virtual Check Up (96KGYK89EF)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "16913596-e7ed-47ff-91b6-38e3049d0f69";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67B1F5B919DDAFC100266872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Virtual Check Up (96KGYK89EF)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/heartcms",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartCMS/HeartCMS-Prefix.pch";
+				INFOPLIST_FILE = "HeartCMS/HeartCMS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16913596-e7ed-47ff-91b6-38e3049d0f69";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67B1F5BA19DDAFC100266872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Virtual Check Up (96KGYK89EF)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/heartcms",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartCMS/HeartCMS-Prefix.pch";
+				INFOPLIST_FILE = "HeartCMS/HeartCMS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "16913596-e7ed-47ff-91b6-38e3049d0f69";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67B1F5BC19DDAFC100266872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartCMS/HeartCMS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeartCMSTests/HeartCMSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		67B1F5BD19DDAFC100266872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartCMS/HeartCMS-Prefix.pch";
+				INFOPLIST_FILE = "HeartCMSTests/HeartCMSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B1F58119DDAFC100266872 /* Build configuration list for PBXProject "WrapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B1F5B619DDAFC100266872 /* Debug */,
+				67B1F5B719DDAFC100266872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B1F5B819DDAFC100266872 /* Build configuration list for PBXNativeTarget "WrapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B1F5B919DDAFC100266872 /* Debug */,
+				67B1F5BA19DDAFC100266872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B1F5BB19DDAFC100266872 /* Build configuration list for PBXNativeTarget "HeartCMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B1F5BC19DDAFC100266872 /* Debug */,
+				67B1F5BD19DDAFC100266872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67B1F57E19DDAFC100266872 /* Project object */;
+}
